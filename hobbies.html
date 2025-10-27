@@ -1,10 +1,11 @@
 <html lang="en">
+
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Hva gjør jeg i fritiden</title>
+
 
     <style>
         body {
@@ -14,28 +15,94 @@
             color: #333;
         }
 
-        .loader {
-        border: 16px solid #f3f3f3; 
-        border-top: 16px solid #75b191;
-        border-radius: 50%;
-        display: flex;
-        width: 120px;
-        height: 120px;
-        animation: spin 3s linear infinite;
-}
+        h1 {
+            text-align: center;
+            border-radius: 50%;
+            color: #447446;
 
-        @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
         }
-        
+
+
+        .tilbake {
+            display: inline-block;
+            background: #447446;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .tilbake:hover {
+            background: #5b955d;
+        }
+
+        .galleri {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .kort {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+
+
+        }
+
+        .kort:hover {
+            transform: scale(1.05);
+        }
+
+        .kort:hover img {
+            transform: scale(1.1);
+        }
+
+        .tekst {
+            position: absolute;
+            bottom: 0;
+            background: rgba(68, 116, 70, 0.85);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 8px 0;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
     </style>
 </head>
+
 <body>
-    <a href="index.html">Tilbake</a>
-    <h1> Mine hobbier er:</h1>
-    
-    <div class="loader"></div>
+    <a href="index.html" class="tilbake">← Tilbake</a>
+    <h1>Mine hobbyer</h1>
+
+    <div class="galleri">
+        <div class="kort">
+            <img src="bilder/fotografering.jpg" alt="Fotografering">
+            <div class="tekst">Maling</div>
+        </div>
+
+        <div class="kort">
+            <img src="bilder/matlagning.jpg" alt="Matlaging">
+            <div class="tekst">Strikking</div>
+        </div>
+
+        <div class="kort">
+            <img src="bilder/tur.jpg" alt="Tur i naturen">
+            <div class="tekst">Hekling</div>
+        </div>
+
+        <div class="kort">
+            <img src="bilder/tegning.jpg" alt="Tegning og maling">
+            <div class="tekst">Sy</div>
+        </div>
+    </div>
 
 </body>
+
 </html>

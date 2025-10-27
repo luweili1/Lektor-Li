@@ -1,17 +1,11 @@
+<!DOCTYPE html>
 <html lang="no">
 
 <head>
-    <title>Font Awesome Icons</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <title>Font Awesome Icons</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontaktinformasjon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,12 +28,15 @@
             object-fit: cover;
         }
 
-        a {
-            display: block;
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
             text-align: center;
-            margin-bottom: 20px;
-            text-decoration: none;
+        }
+
+        a {
             color: #447446;
+            text-decoration: none;
             font-weight: bold;
         }
 
@@ -48,29 +45,58 @@
         }
 
         p {
-            line-height: 2.6;
-            margin-bottom: 10px;
-            margin-left: 13;
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        i {
+            margin-right: 8px;
+            color: #447446;
+        }
+
+        .tilbake {
+            display: inline-block;
+            background: #447446;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .tilbake:hover {
+            background: #5b955d;
         }
     </style>
-
 </head>
 
 <body>
-    <a href="index.html">Tilbake</a>
-    <img src="bilder/cv.png" alt="gnist bilde">
-    <h1>Kontaktinformasjon</h1>
+    <a href="index.html" class="tilbake">← Tilbake</a>
 
+    <div class="container">
+        <img src="bilder/cv.png" alt="Profilbilde">
+        <h1>Kontaktinformasjon</h1>
 
+        <p>
+            <i class="fa fa-linkedin-square" style="font-size:22px"></i>
+            <a href="https://www.linkedin.com/in/luweili/" target="_blank">LinkedIn-profil</a>
+        </p>
 
-    <i class="fa fa-linkedin-square" style="font-size:22px"></i>
-    LinkIn:</p>
+        <p>
+            <i class="fa fa-github" style="font-size:22px"></i>
+            <a href="https://github.com/luweili1" target="_blank">GitHub-profil</a>
+        </p>
 
-    <p> Github:</p>
-    <p> <i class="fa fa-envelope" style="font-size:19px"></i>
-        <a href=""></a>
-        Epost: </p>
-    <p> Telefon: 95528016</p>
+        <p>
+            <i class="fa fa-envelope" style="font-size:19px"></i>
+            <a href="mailto:dittnavn@epost.no">luweil@nrg.no</a>
+        </p>
+
+        <p>
+            <i class="fa fa-phone" style="font-size:19px"></i>
+            955 28 016
+        </p>
+    </div>
 </body>
 
 </html>
