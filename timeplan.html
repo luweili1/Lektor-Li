@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(178, 210, 178);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 2px solid #94979b;
+            box-shadow: 0 2px 4px rgba(185, 221, 149, 0.1);
+        }
+
+        th,
+        td {
+            border: 1px solid #94979b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ceebcd;
+            color: #292b2e;
+        }
+
+        .highlight {
+            background-color: #d4f0d4;
+        }
+
+        .special {
+            background-color: #f0f0f0;
+        }
+
+        .tilbake {
+            display: inline-block;
+            background: #447446;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .tilbake:hover {
+            background: #5b955d;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Timeplanen mine</h1>
+    <a href="index.html" class="tilbake">← Tilbake</a>
+
+    <table>
+        <tr>
+            <th>Dag</th>
+            <th><br>8:30-9:30</th>
+            <th><br>9:40-10:40</th>
+            <th><br>10:50-11:50</th>
+            <th><br>11:50-12:20</th>
+            <th><br>12:20-13:20</th>
+            <th><br>13:30-14:30</th>
+            <th><br>14:40-15:40</th>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Mandag</b></td>
+            <td>UDV</td>
+            <td>Prog</td>
+            <td>Nat</td>
+            <td rowspan="6" class="special"><b>Lunsjtid</b></td>
+            <td>Nat</td>
+            <td>Møte</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Tirsdag</b></td>
+            <td></td>
+            <td>8R</td>
+            <td>Nat</td>
+            <td>Tysk</td>
+            <td colspan="2">Valgfag</td>
+
+        </tr>
+        <tr>
+            <td class="highlight"><b>Onsdag</b></td>
+            <td></td>
+            <td>Møte</td>
+            <td>Matte</td>
+            <td></td>
+            <td></td>
+            <td>Møte</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Torsdag</b></td>
+            <td colspan="2">Matte</td>
+            <td>Møte</td>
+            <td>8R</td>
+            <td>Nat</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Fredag</b></td>
+            <td>Mat</td>
+            <td></td>
+            <td>Tysk</td>
+            <td>Møte</td>
+            <td>Møte</td>
+        </tr>
+       
+    </table>
+</body>
+
+</html>

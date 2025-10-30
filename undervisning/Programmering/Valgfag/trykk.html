@@ -1,0 +1,41 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knappene mine</title>
+
+    <style>
+  button {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+
+  button:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+<h1 id="tekst">Hei!</h1>
+<button onclick="endreTekst()">Trykk her</button>
+<button onclick="alert('Du trykket på den andre knappen!')"> Ikke trykk her</button>
+    
+<script>
+function endreTekst() {
+  document.getElementById("tekst").innerText = "Du trykket på knappen!";
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+

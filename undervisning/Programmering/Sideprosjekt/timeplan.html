@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #343a40;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 2px solid #dee2e6;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #343a40;
+        }
+
+        .highlight {
+            background-color: #f8f9fa;
+        }
+
+        .special {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Timeplan Luwei</h1>
+    <table>
+        <tr>
+            <th>Dag</th>
+            <th><br>8:30-9:30</th>
+            <th><br>9:40-10:40</th>
+            <th><br>10:50-11:50</th>
+            <th><br>11:50-12:20</th>
+            <th><br>12:20-13:20</th>
+            <th><br>13:30-14:30</th>
+            <th><br>14:40-15:40</th>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Mandag</b></td>
+            <td>UDV</td>
+            <td>Prog</td>
+            <td>Nat</td>
+            <td rowspan="6" class="special"><b>Lunsjtid</b></td>
+            <td>Nat</td>
+            <td>Møte</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Tirsdag</b></td>
+            <td></td>
+            <td>8R</td>
+            <td>Nat</td>
+            <td>Tysk</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Wednesday</b></td>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Thursday</b></td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3" class="special">LAB</td>
+            <td>Mat</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Friday</b></td>
+            <td colspan="3" class="special">LAB</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td>Eng</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Saturday</b></td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">SEMINAR</td>
+            <td class="special">SPORTS</td>
+        </tr>
+    </table>
+</body>
+
+</html>

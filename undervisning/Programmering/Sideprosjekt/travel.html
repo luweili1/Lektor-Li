@@ -46,6 +46,7 @@
             max-width: 800px;
             position: relative;
             margin: 200px auto 0 auto;
+            /* skyver slideshowet 200px ned fra toppen */
         }
 
 
@@ -146,25 +147,11 @@
                 opacity: 1
             }
         }
-
-        .tilbake {
-            display: inline-block;
-            background: #447446;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 5px;
-            text-decoration: none;
-            margin-bottom: 20px;
-        }
-
-        .tilbake:hover {
-            background: #5b955d;
-        }
     </style>
 </head>
 
 <body>
-    <a href="index.html" class="tilbake">← Tilbake</a>
+    <a href="index.html">Tilbake</a>
     <h2>Jeg har lyst å besøke 30 land før jeg blir 30 år!</h2>
     <h3>Hittil har jeg besøkt:</h3>
 
@@ -189,6 +176,7 @@
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+        <!-- Flyttet dottene hit -->
         <div class="dot-container">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>

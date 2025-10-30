@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Knapp-oppgaver</title>
+  <style>
+    /* Oppgave 2 – gjør knappene pene */
+    button {
+      background-color: lightblue;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 5px;
+    }
+
+    button:hover {
+      background-color: cornflowerblue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Oppgave 3 – H1 som skal endres -->
+  <h1 id="melding">Dette er originalteksten</h1>
+
+  <!-- Oppgave 1 – første knapp -->
+  <button onclick="klikkMeg()">Klikk på meg!</button>
+
+  <!-- Ekstra utfordring – to knapper -->
+  <button onclick="endreTilHei()">Endre til Hei!</button>
+  <button onclick="endreTilHaDet()">Endre til Ha det!</button>
+
+  <script>
+    // Oppgave 3 – funksjon for første knapp
+    function klikkMeg() {
+      document.getElementById("melding").innerText = "Du trykket på knappen!";
+    }
+
+    // Ekstra utfordring – to funksjoner
+    function endreTilHei() {
+      document.getElementById("melding").innerText = "Hei!";
+    }
+
+    function endreTilHaDet() {
+      document.getElementById("melding").innerText = "Ha det!";
+    }
+  </script>
+</body>
+</html>

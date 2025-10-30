@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Her er knappene mine</title>
+    <style>
+        button{
+            background-color: lightblue;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16 px;
+            border-radius: 8px;
+
+        }
+
+        button:hover{
+            background-color: cornflowerblue;
+            color: white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1 id = "tekst"> Hei alle mine fine elever</h1>
+    <button onclick="endreTekst()"> Trykk her</button>
+
+    <script>
+        function endreTekst(){
+            document.getElementById("tekst").innerText = "Du trykket på knappen!"
+        }
+
+    </script>
+
+</body>
+</html>
