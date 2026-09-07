@@ -1,0 +1,47 @@
+body {
+  background-color: #f5f0e6;
+  font-family: Arial, sans-serif;
+}
+
+#hoved {
+  text-align: center;
+  width: 70%;
+  margin: 40px auto;
+}
+
+.forslag {
+  color: blueviolet;
+}
+
+h1 {
+  color: #822a39;
+  font-size: 50px;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #4d2c50;
+}
+span {
+  color: red;
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(32, 26, 92);
+}
+
+a:hover {
+  color: #c8a724;
+  text-decoration-color: #994343;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
