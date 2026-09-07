@@ -1,0 +1,82 @@
+.ulv {
+  background-color: bisque;
+  margin: 0;
+}
+
+.sau {
+  background-color: lightgreen;
+  margin: 0;
+}
+
+.kanin {
+  background-color: lightblue;
+  margin: 0;
+}
+
+.elg-side {
+  background-color: brown;
+  margin: 0;
+}
+
+#ulv {
+  padding: 20px;
+  max-width: 900px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  text-align: center;
+  margin: auto;
+  line-height: 1.6;
+}
+
+#ulver h1 {
+  font-size: 3rem;
+  color: #8b0000;
+}
+
+#sau {
+  padding: 20px;
+  max-width: 900px;
+  font-family:
+    times new roman,
+    times,
+    serif;
+  text-align: center;
+  margin: auto;
+  line-height: 1.6;
+}
+
+#sau h1 {
+  font-size: 3rem;
+  color: #006400;
+}
+
+#sau img {
+  width: 400px;
+  height: auto;
+}
+
+.ulv img {
+  height: auto;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.elg-side img {
+  width: 600px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#elg-innhold {
+  padding: 20px;
+  max-width: 900px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin: auto;
+  line-height: 1.6;
+}
+
+a:hover {
+  color: lightblue;
+}
