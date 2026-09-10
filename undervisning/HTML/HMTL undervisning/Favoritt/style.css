@@ -39,3 +39,11 @@ h1 {
     filter: grayscale(0%);
 }
 
+p {
+    font-family: example, sans-serif;
+    font-weight: 40;
+    color: #447446;
+    text-align: center;
+    font-size: 18px;
+}
+
