@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(178, 210, 178);
+}
+
+h1 {
+    font-family: "Oi",serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #447446;
+    text-align: center;
+    font-size: 67px;
+}
+
+.gallery {
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.gallery img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    padding: 5px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(100%);
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+p {
+    font-family: example, sans-serif;
+    font-weight: 40;
+    color: #447446;
+    text-align: center;
+    font-size: 18px;
+}
+
