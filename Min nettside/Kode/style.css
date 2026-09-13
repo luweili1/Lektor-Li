@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    font-family: quantico, sans-serif;
+}
+
+.main { 
+    width: 100%;
+}
+
+.navbar {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+body{
+    background: #E393C5;
+    
+}
+
+.nav-list{
+    background: #93E3DA;
+    box-shadow: 0px 0px 10px ;
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-evenly;
+
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color : black;
+    }
+    
+.nav-item a:hover {
+    color: #614aa8;
+
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+
+}
+
+.navn{
+    margin-left: 50px;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.navn p{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.navn h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 50px;
+
+}
+
+.quantico-regular {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 50px;
+    gap: 5px;
+
+}
+
+.hero img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 10px solid white;
+    box-shadow: 0px 5px 15px;
+    transform: rotate(3deg);
+}
+

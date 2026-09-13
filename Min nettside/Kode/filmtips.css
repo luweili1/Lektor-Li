@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    font-family: quantico, sans-serif;
+
+
+}
+
+
+body {
+        background-color: rgb(178, 210, 178);
+        display: flex;
+        flex-direction: column;
+    }
+
+.quantico-regular {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1 {
+    font-weight: 100;
+    font-style: normal;
+    color: #447446;
+    text-align: center;
+    font-size: 67px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.gallery img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    padding: 5px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(100%);
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.footer {
+    margin-top: auto;
+    margin-bottom: 20px;
+    font-family: "Quantico", sans-serif;
+    color: #447446;
+    text-align: center;
+    font-size: 18px;
+}
+
+.navbar {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.nav-list{
+    background: #93E3DA;
+    box-shadow: 0px 0px 10px ;
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-evenly;
+
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color : black;
+    }
+    
+.nav-item a:hover {
+    color: #614aa8;
+
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+
+}
+
