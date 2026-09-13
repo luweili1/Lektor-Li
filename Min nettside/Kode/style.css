@@ -1,10 +1,13 @@
 *{
     margin: 0;
     font-family: quantico, sans-serif;
+    
 }
 
 .main { 
     width: 100%;
+    margin: 0;
+
 }
 
 .navbar {
@@ -23,14 +26,19 @@
 
 body{
     background: #E393C5;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+
     
 }
 
 .nav-list{
-    background: #93E3DA;
+    background: rgb(178, 210, 178);
     box-shadow: 0px 0px 10px ;
-    margin: 0;
-    padding: 1rem 0;
+    margin: 1rem;
+    padding: 1rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -62,22 +70,20 @@ body{
 }
 
 .navn{
-    margin-left: 50px;
-    margin-top: 100px;
-    flex-direction: column;
+    margin-left: 0;
+
 }
 
 .navn p{
     font-size: 20px;
-    font-weight: 100;
-    font-style: normal;
 
 }
 
 .navn h2{
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 100;
-    margin-left: 50px;
+    margin-left: 0px;
+
 
 }
 
@@ -102,8 +108,24 @@ body{
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border: 10px solid white;
+    border: 15px solid white;
     box-shadow: 0px 5px 15px;
     transform: rotate(3deg);
 }
 
+.ommeg{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 500px;
+
+}
+
+.footer {
+    background-color: #e3b1d0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: auto;
+}
