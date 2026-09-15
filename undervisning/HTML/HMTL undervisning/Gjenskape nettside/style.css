@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #5F5449;
+}
+
+.header{
+    background-color: #A3A380;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+body{
+    background-color: #EFEBCE;
+}
+
+.linker{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.linker:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #A3A380;
+    display: flex;
+    margin-top: auto;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 50px;
+}
+
+.innhold p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.innhold code{
+    display: flex;
+}
+
+.hero{
+    width: 500px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.code-woman{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
