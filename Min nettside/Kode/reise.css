@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    font-family: quantico, sans-serif;
+
+
+}
+
+body {
+    background-color: #E393C5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quantico-regular {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1 {
+    font-weight: 100;
+    font-style: normal;
+    color: #447446;
+    text-align: center;
+    font-size: 67px;
+}
+
+.reiseintro {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.bilder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 20px;
+    margin: 20px;
+}
+
+.gallery-item {
+    border: 1px solid #ccc;
+    width: 200px;
+    background:white
+
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
