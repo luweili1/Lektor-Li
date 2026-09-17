@@ -13,6 +13,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="navbar.css">
+        
 
 </head>
 
@@ -24,6 +25,7 @@
             <li class="nav-item"><a href="timeplan.html">Timeplanen min</a></li>
             <li class="nav-item"><a href="filmtips.html">Filmtips</a></li>
             <li class="nav-item"><a href="reise.html">Reisebilder</a></li>
+            <button onclick="myFunction()">Dark</button>
         </ul>
     </div>
 
@@ -57,6 +59,12 @@
 
     </div>
 
+    <script>
+        function myFunction(){
+            var element = document.body;
+            element.classList.toggle("dark-mode")
+        }
+    </script>
 </body>
 
 </html>

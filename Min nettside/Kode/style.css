@@ -80,3 +80,8 @@ body{
     padding: 20px;
     margin-top: auto;
 }
+
+.dark-mode{
+    background-color: black;
+    color:white;
+}
