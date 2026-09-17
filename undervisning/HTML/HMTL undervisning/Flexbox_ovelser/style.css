@@ -1,24 +1,48 @@
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  text-align: center;
-}
-
-.bilder {
+ul{
   display: flex;
-
-  justify-content: center;
-
-  flex-direction: column;
-
+  list-style: none;
   gap: 20px;
-
-  margin-top: 100px;
+  justify-content: flex-end;
 }
 
-.bilder img {
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: beige;
+  padding: 20px;
+text-align: center;
+}
+
+.boks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.boks img{
   width: 200px;
-  height: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bildetekst{
+  text-align:center;
+}
+
+.boks2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 20px;
+  margin-top: auto;
+}
+
+.boks2 img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
