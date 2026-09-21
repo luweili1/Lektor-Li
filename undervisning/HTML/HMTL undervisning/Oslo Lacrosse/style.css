@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0; /* Fjerner standard margin, siden fylles ut*/
+
+}
+
+h1 {
+    font-weight: 100;
+    font-family: Century Gothic;
+    font-size: 40px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #94BEE6;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar img{
+    width: 100px;
+    height: auto;
+}
+
+.logo{
+display: flex;
+align-items: center;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navlist a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* Dersom man ønsker bildet som bakgrunn 
+.content {
+    background-image: url(Media/goalie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin: 20px 0;
+}
+*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.content p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.content img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #94BEE6;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 0px;
+    gap: 20px;
+}
+
+.tekst {
+    font-family: calibri;
+    font-size: 17px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bilde-galleri {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bilde-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.bilde-container img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(100%);
+}
+
+.bilde-container img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
