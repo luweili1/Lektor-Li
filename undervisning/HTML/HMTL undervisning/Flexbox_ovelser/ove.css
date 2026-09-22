@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0; /* Fjerner standard margin, siden fylles ut*/
+    background-color: red;
+}
+
+/*Her er den ytterste boksen som holder header, content og footer. */
+.ytterste_boks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    justify-content: space-between;
+    border: 10px solid fuchsia;
+
+}
+
+/*Her er header, her utvider jeg den 100% og plasserer tekst til venstre. */
+.header{
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: start;
+    border: 10px solid wheat;
+}
+
+/*Her er content, her utvider jeg den 100% og plasserer tekst til midten. */
+.content{
+    background-color: white;
+    border: 10px solid wheat;
+    width: 100%;
+    text-align: center;
+}
+
+/*Her er footer, her utvider jeg den 100% og plasserer tekst til høyre. */
+
+.footer{
+    background-color: green;
+    width: 100%;
+    border: 10px solid wheat;
+    text-align: end;
+}
+
+/*Her er navigasjonen, her bruker jeg justify-content: space-between for å få logo til venstre og meny til høyre. 
+Align-items center centrer vertikalt */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*Her er logoen, her setter jeg en fast bredde på 100px og høyden til auto for å beholde proporsjonene. */
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+/*Her bruker vi flexbox for å lage en horisontal meny med gap mellom lenkene. */
+.meny{
+    display: flex;
+    gap: 20px;
+}
+
+.meny a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
