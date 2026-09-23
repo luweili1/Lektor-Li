@@ -9,6 +9,7 @@ h1 {
     font-weight: 100;
     font-family: Century Gothic;
     font-size: 40px;
+    text-align: center;
 }
 .navbar{
     display: flex;
@@ -132,4 +133,64 @@ align-items: center;
 .bilde-container img:hover {
     transform: scale(1.1);
     filter: grayscale(0%);
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.video video{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.Treningskamper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #94BEE6;
+  }
+
+  .bildeboks{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+
+  .bildeboks1 img{
+    width: 200px;
+    height: auto;
+  }
+
+
+.bildeboks1 {
+    display: flex;
+    align-items: center;
+    border: 5px solid #94BEE6;
+    width: 60%;
+    gap: 60px;
+
 }
