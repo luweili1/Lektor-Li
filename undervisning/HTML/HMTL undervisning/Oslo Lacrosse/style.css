@@ -194,3 +194,12 @@ table {
     gap: 60px;
 
 }
+
+.tekst1 {
+    font-family: "calibri";
+    font-size: 17px;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+}
+
