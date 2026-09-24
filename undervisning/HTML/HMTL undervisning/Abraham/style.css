@@ -1,0 +1,89 @@
+body {
+    background-color: #94BEE6;
+    margin: 0;
+}
+ 
+.Hero {
+ 
+    border-bottom: 2px solid black;
+    display: flex;
+   
+   
+   
+   
+}
+ 
+.Hero img{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+ 
+}
+   
+.hjem {
+    margin-left: auto;
+    align-self: center;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+ 
+.hjem a {
+    font-size: 22px;
+    margin-left: 25px;
+}
+ 
+.hjem a {
+color:black;    
+}
+ 
+ 
+.Hero img{width: 180px;}
+ 
+ 
+.button
+{background-color: #94BEE6;}
+ 
+.info {
+    text-align: center;
+}
+ 
+body {
+    background-color: #94BEE6;
+    margin: 0;
+}
+ 
+.info {
+    background-image: url("team.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    width: 100vw;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+    color: white;
+ 
+    padding: 350px 0;
+}
+ 
+.info a {
+    color: white;
+    background-color: #94BEE6;
+ 
+    padding: 12px 45px;
+    border: 1px solid white;
+    border-radius: 6px;
+ 
+    text-decoration: none;
+}
+ 
+ 
+.info a {
+    color:white
+}
+ 

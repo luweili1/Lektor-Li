@@ -203,3 +203,22 @@ table {
     flex-grow: 1;
 }
 
+.bokser {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.boks {
+    width: 400px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.venstre {
+    align-self: flex-start;
+}
+
+.hoyre {
+    align-self: flex-end;
+}
