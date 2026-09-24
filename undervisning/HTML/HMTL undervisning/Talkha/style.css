@@ -1,0 +1,33 @@
+.box{
+    display: flex;
+}
+ 
+ 
+.logo img{
+width: 150px;
+height: 150px;
+}
+ 
+.header{
+background-color: #94BEE6;
+width: 100%;
+}
+ 
+.navbar{
+display: flex;
+justify-content: center;
+gap: 300px;
+align-items: flex-end;
+
+}
+
+/*
+Fjernet a og b margin venstre og høyre
+La til align-items
+*/
+
+.navbar{
+display: flex;
+justify-content: center;
+gap: 300px;
+}

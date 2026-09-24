@@ -2,42 +2,38 @@ body {
     background-color: #94BEE6;
     margin: 0;
 }
- 
+ /* Endret på Hero med space-around
+    Kun align items i hjem
+    Lagt .hjem a sammen
+    Fjernet padding left på hero
+    */
 .Hero {
  
     border-bottom: 2px solid black;
     display: flex;
-   
-   
-   
-   
+   justify-content: space-around;
 }
  
 .Hero img{
     display: flex;
-    justify-content: flex-start;
-    padding-left: 50px;
  
 }
    
 .hjem {
-    margin-left: auto;
-    align-self: center;
-    margin-bottom: 5px;
-    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+
 }
  
 .hjem a {
     font-size: 22px;
     margin-left: 25px;
+    color: black;
+    text-decoration: none;
 }
  
-.hjem a {
-color:black;    
-}
  
- 
-.Hero img{width: 180px;}
+.Hero img{width: 150px;}
  
  
 .button
