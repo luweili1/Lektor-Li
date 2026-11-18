@@ -10,10 +10,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   height: 100vh;
   justify-content: space-between;
-  border: 10px solid fuchsia;
 }
 
 /*Her er header, her utvider jeg den 100% og plasserer tekst til venstre. */

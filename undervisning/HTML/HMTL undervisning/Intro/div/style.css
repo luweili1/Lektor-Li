@@ -1,0 +1,20 @@
+.div1 {
+  border-radius: 20px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 500px;
+}
+
+.div2 {
+  border-radius: 20px;
+  border: 2px solid rgb(27, 210, 36);
+  padding: 20px;
+  width: 500px;
+}
+
+.div3 {
+  border-radius: 20px;
+  border: 2px solid rgb(0, 162, 255);
+  padding: 20px;
+  width: 500px;}
+  

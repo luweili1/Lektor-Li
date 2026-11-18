@@ -1,0 +1,24 @@
+body {
+  background-color: #d2fafc;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  background-color: black;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+img{
+    width: 400px;
+}
+
+.stor{
+    font-size: 24px;
+}
+
+#uthevet {
+    font-weight: bold;
+    color:red;
+}
